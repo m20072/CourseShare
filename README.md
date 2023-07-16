@@ -1,6 +1,8 @@
 # CourseShare
 
-![CourseShare Logo](https://i.imgur.com/d7Aiyrs.png)
+<p align="center">
+  <img src="https://i.imgur.com/d7Aiyrs.png" alt="CourseShare Logo" width="300">
+</p>
 
 CourseShare is an Android application designed to facilitate the sharing of study materials among students. It provides an easy-to-use and lightweight platform for students to access and contribute to a wide range of course materials.
 
