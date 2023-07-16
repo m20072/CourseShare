@@ -14,7 +14,7 @@ CourseShare offers the following key features:
 
 - **Course Management**: CourseShare incorporates Firebase Realtime Database to store course objects and their respective material lists. This feature allows users to organize materials by course, making it simple to navigate and search for specific study resources.
 
-- **Course List Display**: CourseShare implements a RecyclerView to display a list of available courses. Users can easily browse through the list, view course details, and select the desired course to access its associated study materials.
+- **Course List Display with Filtering**: CourseShare implements a RecyclerView to display a list of available courses. Users can easily browse through the list and filter it to search for a specific course. This filtering feature helps users quickly find the desired course based on keywords or course names.
 
 - **Material List within Courses**: Within each course, CourseShare utilizes another RecyclerView to display the material list. This feature allows users to quickly browse and access the study materials specific to a particular course.
 
