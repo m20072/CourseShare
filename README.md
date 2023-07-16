@@ -18,6 +18,8 @@ CourseShare offers the following key features:
 
 - **Course List Display with Filtering**: CourseShare implements a RecyclerView to display a list of available courses. Users can easily browse through the list and filter it to search for a specific course or course code. This filtering feature helps users quickly find the desired course based on keywords, course names, or course codes.
 
-- **Material List within Courses**: Within each course, CourseShare utilizes another RecyclerView to display the material list. This feature allows users to quickly browse and access the study materials specific to a particular course.
+- **Material List within Courses with File Information**: Within each course, CourseShare utilizes another RecyclerView to display the material list. This feature provides additional information for each material, including the size and name of the file, as well as the name of the uploading user.
+
+- **Material Count for Courses**: CourseShare includes a counter that specifies the number of materials within each course. This feature helps users get an overview of the amount of study materials available within a particular course.
 
 - **Efficient File Downloading**: CourseShare leverages Android's DownloadManager to streamline the process of downloading study materials from Firebase Storage. This feature ensures that users can easily retrieve the files they need for offline access.
