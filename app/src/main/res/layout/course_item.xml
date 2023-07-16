@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="4dp"
+    android:elevation="8dp"
+    app:cardElevation="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#292929">
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/course_LBL_courseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course_name"
+            android:maxLines="2"
+            android:minLines="2"
+            android:maxWidth="200sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/course_LBL_courseCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/course_LBL_courseName"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/code"
+            android:textSize="14sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/course_LBL_materialCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/course_LBL_courseName"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="@string/count"
+            android:textSize="18sp"
+            android:maxLength="10"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

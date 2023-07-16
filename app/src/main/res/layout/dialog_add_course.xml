@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dialog_ET_coursename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_name_dialog"
+        android:maxLength="30"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dialog_ET_coursecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/course_code_dialog"
+        android:maxLength="5"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialog_MB_savecourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_save_dialog" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CourseShare</string>
+
+    <!-- activity_main-->
+    <string name="user_name">Hello, User_name!</string>
+
+    <!-- course_list-->
+    <string name="courses"> Courses:</string>
+    <string name="add_course">Add Course</string>
+    <string name="search_course">Search Course</string>
+
+
+    <!-- material_list-->
+    <string name="materials"> Materials:</string>
+    <string name="add_material">Add Material</string>
+
+    <!-- course_item-->
+    <string name="course_name">Course name</string>
+    <string name="code">00000</string>
+    <string name="count">count: 000</string>
+
+    <!-- material_item-->
+    <string name="material_name">Material name</string>
+    <string name="uploaded_by_user">Uploaded by: user_name</string>
+    <string name="file_type">file type</string>
+    <string name="file_size">file size</string>
+
+    <!--course dialog-->
+    <string name="course_name_dialog">Course Name</string>
+    <string name="course_code_dialog">Course Code</string>
+    <string name="course_save_dialog">Save</string>
+
+    <!--material dialog-->
+    <string name="material_name_dialog">Material Name</string>
+    <string name="select_file_dialog">Select File</string>
+    <string name="material_save_dialog">Save</string>
+</resources>

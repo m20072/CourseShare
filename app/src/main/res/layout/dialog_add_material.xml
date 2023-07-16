@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dialog_ET_materialname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/material_name_dialog" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialog_MB_selectfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_file_dialog" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialog_MB_savematerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/material_save_dialog" />
+</LinearLayout>
