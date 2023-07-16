@@ -1,6 +1,6 @@
 # CourseShare
 
-![CourseShare Logo](path_to_logo)
+![CourseShare Logo]([path_to_logo](https://i.imgur.com/d7Aiyrs.png))
 
 CourseShare is an Android application that allows users to share and access course materials. It follows the MVVM (Model-View-ViewModel) architectural pattern, where each fragment is associated with a corresponding ViewModel class.
 
